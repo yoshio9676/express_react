@@ -1,0 +1,6 @@
+.env
+db
+express/dist
+express/node_modules
+react/dist
+react/node_modules
