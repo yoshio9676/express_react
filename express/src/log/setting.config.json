@@ -1,0 +1,22 @@
+{
+    "appenders": {
+        "system": {
+            "type": "file",
+            "filename": "./src/log/system.log"
+        },
+        "access": {
+            "type": "file",
+            "filename": "./src/log/access.log"
+        }
+    },
+    "categories": {
+        "default": {
+            "appenders": ["system", "access"],
+            "level": "debug"
+        },
+        "access": {
+            "appenders": ["access"],
+            "level": "all"
+        }
+    }
+}
